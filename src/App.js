@@ -1,8 +1,9 @@
+import NavBar from "./Components/NavBar";
 
 function App() {
   return (
-    <div className="font-inter font-semibold text-[36px]">
-      Meet our team
+    <div className="">
+      <NavBar />
     </div>
   );
 }

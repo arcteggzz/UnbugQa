@@ -1,4 +1,5 @@
 import AccoladesCard from "./AccoladesCard";
+import AccoladesData from "../Data/AccoladesData";
 
 function Accolades() {
   return (
@@ -12,8 +13,17 @@ function Accolades() {
         <p className="text-[20px] font-[400] text-[#667085] md:mt-[20px] sm:mt-[16px] md:leading-[30px] sm:leading-[28px] md:px-[336px] sm:px-[16px]">
             Everything you need to build modern UI and great products. 
         </p>
-        <div className="md:grid md:grid-cols-3 sm:flex sm:flex-col sm:items-center md:gap-x-[32px] sm:gap-y-[32px] md:mt-[64px] sm:mt-[48px] bg-[url(https://bafybeie52vtktfoewerrr3l6smiwu5vrkletgren65bhp66admmypgjhz4.ipfs.infura-ipfs.io/)] md:h-[360px] sm:h-[788px] md:w-[1216px] sm:w-[343px]">
-            <AccoladesCard />
+        <div className="md:grid md:grid-cols-3 sm:flex sm:flex-col sm:items-center md:gap-x-[32px] sm:gap-y-[32px] md:mt-[64px] sm:mt-[48px] bg-[url(https://bafybeie52vtktfoewerrr3l6smiwu5vrkletgren65bhp66admmypgjhz4.ipfs.infura-ipfs.io/)] md:h-[360px] sm:h-[788px] md:w-[1216px] sm:w-[343px] md:p-[64px] sm:py-[32px] sm:px-[24px]">
+            {AccoladesData.map((acccolade, index) => {
+                return (
+                    <AccoladesCard
+                        key={index}
+                        main = {acccolade.main}
+                        sub1 = {acccolade.sub1}
+                        sub2 = {acccolade.sub2}
+                    />
+                )
+            })}
         </div>
     </div>
   );

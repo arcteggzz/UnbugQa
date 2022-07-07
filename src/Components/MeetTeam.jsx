@@ -34,7 +34,6 @@ function MeetTeam() {
           )
         })}
       </div>
-      
     </div>
   );
 }

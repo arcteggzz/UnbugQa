@@ -15,5 +15,5 @@ function Hiring() {
   );
 }
   
-  export default Hiring;
+export default Hiring;
   

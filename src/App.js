@@ -4,6 +4,7 @@ import MeetTeam from "./Components/MeetTeam";
 import Accolades from "./Components/Accolades";
 import Feedback from "./Components/Feedback";
 import Hiring from "./Components/Hiring";
+import Footer from "./Components/Footer";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Accolades />
       <Feedback />
       <Hiring />
+      <Footer />
     </div>
   );
 }

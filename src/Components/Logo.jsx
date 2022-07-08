@@ -11,7 +11,6 @@ function Logo() {
         </div>
         <h1 className="ml-[9.83px] font-inter font-semibold text-[16px]">Untitled UI</h1>
     </div>
-    
   );
 }
 

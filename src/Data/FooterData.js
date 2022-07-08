@@ -17,7 +17,7 @@ const FooterData = [
         text4: "Projects",
         text5: "Projects",
         text6: "Projects",
-        new: "true"
+        new: "false"
     },
     {
         header: "Product",
@@ -27,7 +27,7 @@ const FooterData = [
         text4: "Projects",
         text5: "Projects",
         text6: "Projects",
-        new: "true"
+        new: "false"
     },
     {
         header: "Product",
@@ -37,7 +37,7 @@ const FooterData = [
         text4: "Projects",
         text5: "Projects",
         text6: "Projects",
-        new: "true"
+        new: "false"
     },
     {
         header: "Product",
@@ -47,7 +47,7 @@ const FooterData = [
         text4: "Projects",
         text5: "Projects",
         text6: "Projects",
-        new: "true"
+        new: "false"
     },  
 ]
 export default FooterData

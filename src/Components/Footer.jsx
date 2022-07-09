@@ -4,6 +4,7 @@ function Footer() {
     return (
         <div className="bg-[#1D2939] md:px-[112px] sm:px-[16px] pb-[48px] md:pt-[64px] sm:pt-[48px]">
             <FooterList />
+            {/* FooterBase start */}
             <div className="flex md:justify-between md:items-center md:flex-row sm:flex-col md:pt-[32px] sm:pt-[32px] md:px-[112px] sm:px-[16px] border-t-[0.5px] border-t-[#3f4859]">
                 <div className="flex items-center cursor-pointer">
                     <div className="relative flex justify-center items-center aspect-square w-[32px] border-[0.2px] border-[#D0D5DD] bg-gradient-to-b from-[#FFFFFF] to-[#D0D5DD] rounded-[8px]">
@@ -18,6 +19,7 @@ function Footer() {
                     © 2077 Untitled UI. All rights reserved.
                 </h1>
             </div>
+            {/* FooterBase end */}
         </div>
     );
 }

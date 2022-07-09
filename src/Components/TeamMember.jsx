@@ -19,7 +19,7 @@ function TeamMembers(props) {
         </div>
         <h2 className="md:text-[18px] sm:text-[16px] font-[600] text-[#FFFFFF] md:leading-[28px] sm:leading-[24px] mb-[4px]">{props.position}</h2>
         <p className="md:text-[16px] sm:text-[14px] font-[400] text-[#FFFFFF] md:leading-[24px] sm:leading-[20px] md:mb-[32px] sm:mb-[24px]">{props.roles}</p>
-        <div className="flex md:space-x-[20px] sm:space-x-0 items-center">
+        <div className="flex md:space-x-[20px] sm:space-x-[12px] items-center">
           <FaTwitter className={iconStyle}/>
           <FaLinkedin className={iconStyle}/>
           <BsGlobe2 className={iconStyle}/>

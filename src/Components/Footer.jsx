@@ -6,7 +6,9 @@ function Footer() {
     return (
         <div className="bg-[#1D2939] md:px-[112px] sm:px-[16px] pb-[48px] md:pt-[64px] sm:pt-[48px] w-full">
             <div className="flex md:flex-row sm:flex-col-reverse md:justify-between">
-                <FooterList />
+                <div className="md:grow sm:grow:none md:pr-[100px]">
+                    <FooterList />
+                </div>
                 <div className="flex flex-col">
                     <h1 className="font-inter text-[#ffffff] font-[600] text-[14px] leading-[20px] mb-[20px]"> Get the App</h1>
                     <div className="flex md:flex-col sm:flex-row sm:gap-x-[16px]">
@@ -46,9 +48,9 @@ function Footer() {
         </div>
     );
 }
-const iconStyle = `text-[#ffffff] md:text-[40px] sm:text-[28px] mr-[6px]`
-const h2Iconstyle = `font-inter text-[#ffffff] font-[600] md:text-[12px] sm:text-[8px] leading-[16px]`
-const h1IconStyle = `font-inter text-[#ffffff] font-[500] md:text-[22px] sm:text-[16px] leading-[28px]`
-const divIconStyle = `flex items-center border-[1px] border-[#fffff] rounded-[8px] mb-[20px] md:pl-[8px] sm:pl-[6px] md:pr-[24px] sm:pr-[16px] md:py-[6px] sm:py-[2px] md:w-[210px] sm:w-[150px]`
+const iconStyle = `text-[#ffffff] md:text-[32px] sm:text-[28px] mr-[6px]`
+const h2Iconstyle = `font-inter text-[#ffffff] font-[600] md:text-[10px] sm:text-[8px] leading-[16px]`
+const h1IconStyle = `font-inter text-[#ffffff] font-[500] md:text-[18px] sm:text-[16px] leading-[28px]`
+const divIconStyle = `flex items-center border-[1px] border-[#fffff] rounded-[8px] mb-[20px] md:pl-[5px] sm:pl-[4px] md:py-[3px] sm:py-[2px] md:w-[160px] sm:w-[150px]`
 
 export default Footer;
